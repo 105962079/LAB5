@@ -1,0 +1,78 @@
+/*
+filename: Sokna David Heang
+author: Sokna David Heang
+created: 28 August 2025
+last modified: 28 August 2025
+description: lab04.html
+*/
+
+/* Style for all H1 headings */
+h1 {
+        color: purple; /* Make text purple */
+        font-size: 2em; /* Make font 2x larger than normal */
+        font-weight: bold; /* Bold text */
+}
+
+/* Global styles for all elements */
+* { 
+        font-family: calibri, sans-serif; /* Apply font to all elements */
+} 
+* { 
+        color: #2F4F4F; 
+} 
+/* Style for all H2 headings */
+h2 {
+        color: rgb(0, 128, 128); /* Text color */
+        font-size: 1.5em; /* Font size */
+        font-weight: bold; /* Bold text */
+}
+aside, footer { 
+        font-style: italic; /* Italicize text in aside and footer elements */
+}   
+
+ h1, h2, h3 { 
+        font-family:Arial, sans-serif; /* Use Arial font for H1, H2, and H3 */
+}
+
+table, thead, tr, th, td, tbody, tfoot { 
+        border: 1px solid black; /* Add a border around all table elements */
+}
+
+#images {
+        text-align : center; /* Center content inside images */
+}
+
+/* Style element with id="heading3" */
+#heading3 {
+        color: red; /* Text color */
+}
+/* Style for elements with class="special" */
+.special {
+        color: darkorange; /* Text color */
+        font-weight: bold; /* Bold text */
+}  
+
+/* Style for elements with class="month" */
+.month {
+        text-align: right; /* Align text to the right */
+}
+/* Navigation link styles */
+nav a {
+        text-decoration: none; /* Remove underline */
+        padding: 0.2em 0.6em; /* Add padding */
+        border: 4px solid #ccc; /* Add border */
+}   
+/* Nested list style (UL inside an OL) */
+ol ul {
+  list-style-type: square; /* Use square bullets */
+}
+/* Hide aside section when hovered */
+aside:hover {
+        display:none; /* Hide aside section when hovered */
+}
+/* Hover effect for navigation links */
+nav a:hover {
+        background-color:lightblue; /* Change background color */
+        border-color:darkblue; /* Change border color */
+        transition: color 0.5s; /* Smooth transition for color change */
+}

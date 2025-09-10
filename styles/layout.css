@@ -1,0 +1,21 @@
+/*
+filename: Sokna David Heang
+author: Sokna David Heang
+created: 5 August 2025
+last modified: 5 August 2025
+description: lab04.html
+*/
+
+aside:hover {
+        display:block;
+}
+.menu {
+        display: inline-block;
+}
+aside {
+        border: 4px inset purple;
+        border-radius: 14px;
+        margin: 1em;
+        padding: 1em;
+        background: url(images/fade.jpg) repeat-x top left;
+}
