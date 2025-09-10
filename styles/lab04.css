@@ -48,7 +48,7 @@ table, thead, tr, th, td, tbody, tfoot {
 }
 /* Style for elements with class="special" */
 .special {
-        color: darkorange; /* Text color */
+        color: darkred; /* Text color */
         font-weight: bold; /* Bold text */
 }  
 
