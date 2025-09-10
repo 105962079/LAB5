@@ -1,22 +1,23 @@
 /* styling definition list */
 dl {
-    border: 3px double #ccc;
-    padding: 0.5em;
+    border: 3px double #ccc;  /* Double gray border around the list */
+    padding: 0.5em;  /* Space inside the border */   
   }
-  dt {
-    clear: left;
-	float: left;
-    width: 40%;
-	text-align: right;
-    font-weight: bold;
-    color: green;
-  }
-  dt::after {
-    content: " :"; 
-  }
-
+/* Style each definition term (<dt>) */
+dt {
+    clear: left;  /* Forces each term to start on a new line (avoids float overlap) */
+    float: left;  /* Floats term to the left */
+    width: 40%;   /* Takes up 40% of the total width */
+	  text-align: right;   /* Align text to the right for neat spacing */
+    font-weight: bold;  /* Make term bold */
+    color: green;    /* Set text color to green */
+}
+dt::after {
+    content: " :"; /* Adds " :" after each <dt> */
+}
+/* Style each definition description (<dd>) */
   dd {
-    width: 55%;
-	margin-left: 42%;
+    width: 55%;  /* Description takes 55% of the total width */
+	margin-left: 42%;   /* Push descriptions to align next to terms */
   }
 
